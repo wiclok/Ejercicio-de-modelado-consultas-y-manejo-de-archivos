@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>agregar libro</title>
+  </head>
+  <body>
+
+
+    <!-- Formulario para crear un nuevo autor -->
+    <h2>Crear un Nuevo Autor</h2>
+    <form action="/autor" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+      <br />
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required />
+      <br />
+      <label for="biografia">Biografía:</label>
+      <textarea id="biografia" name="biografia" rows="4" required></textarea>
+      <br />
+      <button type="submit">Guardar Autor</button>
+    </form>
+
+    </form>
+  </body>
+</html>
